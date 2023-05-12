@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>DZ-1</title>
+
+    <link rel="stylesheet" href="style.css"/>
+    <link href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css" rel="stylesheet"/>
+
+  </head>
+  <body>
+    <div class="container">
+      <header>Регистрация</header>
+      <form>
+        <div class="field email-field">
+          <div class="input-field">
+            <input type="email" placeholder="Введите email" class="email"/>
+          </div>
+          <span class="error email-error">
+            <i class="bx bx-error-circle error-icon"></i>
+            <p class="error-text">Введите, пожалуйста, действительный email</p>
+          </span>
+        </div>
+        <div class="field create-password">
+          <div class="input-field">
+            <input type="password" placeholder="Придумайте пароль" class="password"/>
+            <i class="bx bx-hide show-hide"></i>
+          </div>
+          <span class="error password-error">
+            <i class="bx bx-error-circle error-icon"></i>
+            <p class="error-text">Пожалуйста, введите не менее 8 символов с номером, символом, маленькой и Заглавная буква.
+            </p>
+          </span>
+        </div>
+        <div class="field confirm-password">
+          <div class="input-field">
+            <input type="password" placeholder="Подтвердите пароль" class="cPassword"/>
+            <i class="bx bx-hide show-hide"></i>
+          </div>
+          <span class="error cPassword-error">
+            <i class="bx bx-error-circle error-icon"></i>
+            <p class="error-text">Пароль не подходит</p>
+          </span>
+        </div>
+        <div class="input-field button">
+          <input type="submit" value="Отправить"/>
+        </div>
+      </form>
+    </div>
+  </body>
+  <script src="app.js"></script>
+</html>
