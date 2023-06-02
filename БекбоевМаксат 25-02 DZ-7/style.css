@@ -1,0 +1,70 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-image: url(https://fullhdoboi.ru/wp-content/uploads/_ph/6/179059157.jpg);
+  }
+  
+  .wrapper {
+    max-width: 500px;
+    margin: 100px auto;
+    padding: 20px;
+    background-color: rgba(177, 174, 174, 0.5);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .input-container {
+    display: flex;
+  }
+  
+  .cityNameValue {
+    width: 95%;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    font-size: 22px;
+    background-color: #d6d6d6;
+  }
+  
+  .cityNameValue:focus {
+    outline: none;
+  }
+  
+  .searchButton {
+    padding: 10px 20px;
+    background-color: #3f8fd7;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    margin-left: 10px;
+    cursor: pointer;
+  }
+  
+  .weather-container {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .cityName {
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .temp {
+    font-size: 48px;
+    font-weight: bold;
+  }
+  
+  .cloud,
+  .wind {
+    font-size: 26px;
+    margin-bottom: 5px;
+  }
+  
+  .weatherIcon {
+    width: 140px;
+    height: 140px;
+    margin-top: 20px;
+  }
+  
